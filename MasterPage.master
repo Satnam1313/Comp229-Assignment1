@@ -4,6 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.plugin.min.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
@@ -11,40 +14,41 @@
         $(document).ready(function () {
             $('.countdown').countdown({
                 until: $.countdown.UTCDate(
-                    -4,2016,9,11,1,59,0,0
+                    -4, 2016, 9, 11, 1, 59, 0, 0
                     )
             });
         });
     </script>
-    <title></title>
-  
+    <title>Cook Book</title>
+
 </head>
 <body id="page">
-    <div style="background-color:white">
-    <form id="form1" runat="server">
-     
+    <div style="background-color: white">
+        <form id="form1" runat="server">
 
-        <img src="images/banner1.jpg" float="left" style="width:640px;height:160px" />
-        <img src="images/banner2.jpg" float="right" style="width:320px;height:160px"   />     <hr />
-        <nav>
-        <p>
-        <a href="Default.aspx">Home</a>
-           <a href="Recipe.aspx">Recipes</a>
-        <a href="Add.aspx">Add recipe</a>
-        <a href="Search.aspx">Search</a>
-            </p></nav>
-       <hr />
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+
+            <img src="images/banner1.jpg" float="left" style="width: 640px; height: 160px" />
+            <img src="images/banner2.jpg" float="right" style="width: 320px; height: 160px" />
+            <hr />
+            <nav>
+                <p>
+                    <a href="Default.aspx">Home</a>
+                    <a href="Recipe.aspx">Recipes</a>
+                    <a href="Add.aspx">Add recipe</a>
+                    <a href="Search.aspx">Search</a>
+                </p>
+            </nav>
+            <hr />
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <hr />
+            <footer>
+                <h6>&copy;Satnam Singh Assignment-1 Student#:300875942 Comp229-003 Fall-2016 </h6>
+            </footer>
     </div>
-         <hr />
-        <footer>
-            <h6>&copy;Satnam Singh Assignment-1 Student#:300875942 Comp229-003 Fall-2016 </h6>
-        </footer>
-        </div>
-        <hr/>
+    <hr />
     </form>
 </body>
 </html>
