@@ -14,11 +14,11 @@ nav p {
 	float: left;
 }
 body {
-	font-family: "Century Gothic";
-	font-size: large;
-	background-color: #D1CDCD;
-	background-image: url('background.png');
-	background-repeat: repeat;
+    font-family: "Century Gothic";
+    font-size: large;
+    background-color: #D1CDCD;
+    background-image: url('../../images/background.png');
+    background-repeat: repeat;
 }
 p {
 	text-align: justify;
