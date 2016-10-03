@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+</head>
+<body id="page">
+    <form id="form1" runat="server">
+        <img src="images/banner1.jpg" float="left" style="width:640px;height:160px" />
+        <img src="images/banner2.jpg" float="right" style="width:320px;height:160px"   />     <hr />
+        <nav>
+        <p>
+        <a href="Default.aspx">Home</a>
+        <a href="Add.aspx">Add recipe</a>
+        <a href="Search.aspx">Search</a>
+            </p></nav>
+       
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         <hr />
+        <footer>
+            <h6>&copy;Satnam Singh Assignment-1 Student#:300875942 Comp229-003 Fall-2016 </h6>
+        </footer>
+        <hr>
+    </form>
+</body>
+</html>
