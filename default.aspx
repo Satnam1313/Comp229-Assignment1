@@ -15,5 +15,7 @@ Interestingly, other proteins, namely the collagens that make up cartilage and o
 
 Cooking also causes proteins to lose moisture, typically via evaporation in the form of steam. This loss of moisture then causes protein-rich food to shrink, as we see with burgers that shrink when cooked on the grill.
     </p>
+    <br />
+    Total people visits:- <asp:Label ID="PageCounter" runat="server" ></asp:Label>
 </asp:Content>
 

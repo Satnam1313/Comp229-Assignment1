@@ -9,6 +9,16 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+         if (Application["PageCounter"] == null)
+        {
+            Application["PageCounter"] = 4894;
+        }
+        else
+        {
+            Application.Lock();
+            Application["PageCounter"] = (int)Application["PageCounter"] + 1;
+            Application.UnLock();
+        }
+        PageCounter.Text = Convert.ToString(Application["PageCounter"]);
     }
 }
