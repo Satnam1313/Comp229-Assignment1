@@ -3,7 +3,7 @@
 <asp:Content ID="home" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
         <img src="images/cooking-college.jpg" / id="picture" style="padding:10px 10px 10px 10px">
-        <h2 style="padding:unset">What is cooking??</h2>
+        <h2 style="padding:unset">What is cooking???</h2>
         <p style="padding:5px 5px 5px 5px">Cooking is one of those everyday words that everyone knows. But what does it really mean? Is reheating leftovers cooking? How about making an emulsified salad dressing? Scrambling eggs? Baking cookies?
 
 At its most basic, cooking means applying heat to food. But cooking is as much about the ways heat changes the food as it is about the heat itself. That's because heating food does more than just make it hotter. It changes the food in other ways, too.
@@ -14,7 +14,7 @@ Interestingly, other proteins, namely the collagens that make up cartilage and o
 
 
 Cooking also causes proteins to lose moisture, typically via evaporation in the form of steam. This loss of moisture then causes protein-rich food to shrink, as we see with burgers that shrink when cooked on the grill.
-    </p>
+   <!-- Reterived from:-    http://culinaryarts.about.com/od/cookingmethods/a/cooking.htm --> </p>
     <br />
     Total people visits:- <asp:Label ID="PageCounter" runat="server" ></asp:Label>
 </asp:Content>
