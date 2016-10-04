@@ -11,4 +11,10 @@ public partial class Recipe : System.Web.UI.Page
     {
 
     }
+
+    protected void Timer1_Tick(object sender, EventArgs e)
+    {
+      
+     
+}
 }

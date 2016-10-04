@@ -1,4 +1,7 @@
-﻿#page {
+﻿@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+
+
+#page {
 
 	width: 1024px;
 	margin-right: auto;
@@ -10,14 +13,57 @@ nav p {
 	text-transform: uppercase;
 	text-align: center;
 }
+#design {
+    width:1024px;
+    font-size: 15px;
+    font-family: 'Teko',sans-serif;
+    background: #092f6e url('../../images/satellite_dish.jpg') no-repeat center bottom;
+    min-height:575px;
+}
+#heading{
+    background-color:rgba(0,0,0,5);
+    padding:15px 0px 2px 0px;
+    margin:0px 0px 30px 0px;
+    text-align:center;
+    font-size:40px;
+}
 #picture {
 	float: left;
+}
+#design #countdown .countdown-row{
+    display:block;
+    text-align:center;
+}
+
+#design #countdown .countdown-section{
+    display:inline-block;
+    width:95px;
+}
+#design #countdown .countdown-amount{
+    display:block;
+    color:#ffffff;
+    font-size:5.6em;
+    line-height:55px;
+}
+#design #countdown .countdown-period{
+    display:block;
+    color:#6fb5f8;
+    font-size:1.4em;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+
+#count{
+    margin: 0; padding: 0; background-color: #092f6e; color: #fff; 
+    text-align:center;
 }
 body {
     font-family: "Century Gothic";
     font-size: large;
     background-color: #D1CDCD;
-    background-image: url('../../images/background.png');
+  
+    background-image: url('../../images/background.png') ;
     background-repeat: repeat;
 }
 p {
