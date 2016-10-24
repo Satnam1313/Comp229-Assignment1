@@ -11,4 +11,9 @@ public partial class Add : System.Web.UI.Page
     {
 
     }
+
+    protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }

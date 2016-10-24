@@ -35,7 +35,7 @@
                     <a href="Default.aspx">Home</a>
                     <a href="Recipe.aspx">Recipes</a>
                     <a href="Add.aspx">Add recipe</a>
-                    <a href="Search.aspx">Search</a>
+                   <a href="SearchRecipe.aspx">Search Recipe</a>
                 </p>
             </nav>
             <hr />
